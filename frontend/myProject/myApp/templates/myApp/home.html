@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Backup System</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #333333;
+      }
+
+      header {
+        background-color: #004085;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #1d3557; /* Darker blue for Nav Bar */
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      nav a {
+        color: #ffffff; /* White color for text */
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        background-color: #457b9d; /* Lighter blue on hover */
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .feature-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+
+      .flip-card {
+        perspective: 1000px;
+        width: 300px;
+        height: 200px;
+        cursor: pointer;
+      }
+
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.6s;
+      }
+
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+      }
+
+      .flip-card-front {
+        color: white;
+        font-weight: bold;
+      }
+
+      .flip-card-back {
+        background: #004085;
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+      .flip-card-back h3 {
+        margin: 0;
+      }
+
+      .flip-card-front h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+
+      .flip-card-front p {
+        font-size: 0.9rem;
+      }
+
+      .flip-card-back p {
+        font-size: 0.9rem;
+      }
+
+      .card-1 .flip-card-front {
+        background: #ffebee;
+        color: #d32f2f;
+      }
+
+      .card-2 .flip-card-front {
+        background: #e8f5e9;
+        color: #388e3c;
+      }
+
+      .card-3 .flip-card-front {
+        background: #ede7f6;
+        color: #673ab7;
+      }
+
+      .card-4 .flip-card-front {
+        background: #fffde7;
+        color: #fbc02d;
+      }
+
+      .card-5 .flip-card-front {
+        background: #f3e5f5;
+        color: #8e24aa;
+      }
+
+      .card-6 .flip-card-front {
+        background: #e3f2fd;
+        color: #1e88e5;
+      }
+
+      .card-7 .flip-card-front {
+        background: #fbe9e7;
+        color: #e64a19;
+      }
+
+      .card-8 .flip-card-front {
+        background: #edeef2;
+        color: #546e7a;
+      }
+
+      .card-9 .flip-card-front {
+        background: #eaf1ff;
+        color: #303f9f;
+      }
+
+      .card-10 .flip-card-front {
+        background: #f3f4e8;
+        color: #afb42b;
+      }
+
+      .card-11 .flip-card-front {
+        background: #fafafa;
+        color: #616161;
+      }
+
+      .card-12 .flip-card-front {
+        background: #ffe0b2;
+        color: #ff8f00;
+      }
+
+      footer {
+        background-color: #212529;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      footer p {
+        margin: 0;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>File Backup System</h1>
+    </header>
+
+    <nav>
+      <a href="/manage-dag">Manage a DAG</a>
+      <a href="/fail-running-dag">Fail a DAG Run</a>
+      <a href="/list-dag-runs">Dag Runs</a>
+      <a href="/monitor-dag">Monitor a DAG Run</a>
+    </nav>
+
+    <main>
+      <div class="feature-container">
+        <div class="flip-card card-1">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Parallelism of Tasks</h3>
+              <p>Run multiple tasks simultaneously.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`@task def parallel_task(): ...`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-2">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Dynamic Task Addition</h3>
+              <p>Add tasks dynamically at runtime.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`@task def add_task(): ...`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-3">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Dynamic Task Stitching</h3>
+              <p>Link tasks dynamically based on logic.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`task1 >> task2`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-4">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Task Termination</h3>
+              <p>Stop tasks gracefully when needed.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`task.terminate()`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-5">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Error Handling</h3>
+              <p>Catch and manage task errors.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`try: ... except:`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-6">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>State Management</h3>
+              <p>Track and control task states.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`task.state == SUCCESS`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-7">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Event Handling</h3>
+              <p>Trigger, pause, or unpause workflows.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`trigger_dag('event_name')`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-8">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Data Sharing</h3>
+              <p>Pass data between tasks.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`xcom_push` and `xcom_pull`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-9">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Subworkflows</h3>
+              <p>Create sub-DAGs for complex workflows.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`SubDagOperator`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-10">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Task Dependencies</h3>
+              <p>Control the execution order of tasks.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`task1.set_upstream(task2)`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-11">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Logging</h3>
+              <p>View task execution logs.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`task.log`</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card-12">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h3>Airflow API</h3>
+              <p>Interact with Airflow programmatically.</p>
+            </div>
+            <div class="flip-card-back">
+              <h3>Code Snippet</h3>
+              <p>`from airflow.api.client import Client`</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

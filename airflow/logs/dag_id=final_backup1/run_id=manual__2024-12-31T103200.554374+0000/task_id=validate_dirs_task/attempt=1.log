@@ -1,0 +1,21 @@
+[2024-12-31T10:44:57.880+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-31T10:44:57.914+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: final_backup1.validate_dirs_task manual__2024-12-31T10:32:00.554374+00:00 [queued]>
+[2024-12-31T10:44:57.932+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: final_backup1.validate_dirs_task manual__2024-12-31T10:32:00.554374+00:00 [queued]>
+[2024-12-31T10:44:57.933+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2024-12-31T10:44:57.964+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): validate_dirs_task> on 2024-12-31 10:32:00.554374+00:00
+[2024-12-31T10:44:57.988+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=236) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-31T10:44:57.986+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'final_backup1', 'validate_dirs_task', 'manual__2024-12-31T10:32:00.554374+00:00', '--job-id', '1048', '--raw', '--subdir', 'DAGS_FOLDER/final_backup1.py', '--cfg-path', '/tmp/tmpo1fsrw1t']
+[2024-12-31T10:44:57.991+0000] {standard_task_runner.py:72} INFO - Started process 241 to run task
+[2024-12-31T10:44:58.000+0000] {standard_task_runner.py:105} INFO - Job 1048: Subtask validate_dirs_task
+[2024-12-31T10:44:58.044+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-12-31T10:44:58.161+0000] {task_command.py:467} INFO - Running <TaskInstance: final_backup1.validate_dirs_task manual__2024-12-31T10:32:00.554374+00:00 [running]> on host 05c0118fb254
+[2024-12-31T10:44:58.338+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='final_backup1' AIRFLOW_CTX_TASK_ID='validate_dirs_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-31T10:32:00.554374+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-31T10:32:00.554374+00:00'
+[2024-12-31T10:44:58.340+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-31T10:44:58.346+0000] {final_backup1.py:89} INFO - Starting directory validation...
+[2024-12-31T10:44:58.361+0000] {final_backup1.py:111} INFO - Validation complete. Created backup directories: []
+[2024-12-31T10:44:58.362+0000] {python.py:240} INFO - Done. Returned value was: {'created_dirs': []}
+[2024-12-31T10:44:58.410+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-31T10:44:58.411+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=final_backup1, task_id=validate_dirs_task, run_id=manual__2024-12-31T10:32:00.554374+00:00, execution_date=20241231T103200, start_date=20241231T104457, end_date=20241231T104458
+[2024-12-31T10:44:58.468+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-31T10:44:58.555+0000] {taskinstance.py:3895} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2024-12-31T10:44:58.559+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

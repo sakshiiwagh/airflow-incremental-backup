@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage DAG</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        color: #333333;
+      }
+
+      header {
+        background-color: #004085;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      main {
+        padding: 20px;
+        text-align: center;
+      }
+
+      .form-container {
+        margin: 40px auto;
+        max-width: 600px;
+        background: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border: 1px solid #ced4da;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 500;
+        color: #004085;
+      }
+
+      input,
+      select,
+      button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        font-size: 1rem;
+        color: #495057;
+      }
+
+      button {
+        background-color: #004085;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #003366;
+      }
+
+      h1 {
+        background-color: #004085;
+        color: white;
+      }
+
+      h2 {
+        color: #212529;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Manage DAG</h1>
+    </header>
+    <main>
+      <div class="form-container">
+        <form method="POST">
+          {% csrf_token %}
+          <label for="dag_id">Enter DAG ID:</label>
+          <input type="text" id="dag_id" name="dag_id" required />
+
+          <label for="action">Select Action:</label>
+          <select name="action" id="action" required>
+            <option value="trigger">Trigger</option>
+            <option value="pause">Pause</option>
+            <option value="unpause">Unpause</option>
+          </select>
+
+          <button type="submit">Submit</button>
+        </form>
+        {% if message %}
+        <h2>{{ message }}</h2>
+        {% endif %}
+      </div>
+    </main>
+  </body>
+</html>

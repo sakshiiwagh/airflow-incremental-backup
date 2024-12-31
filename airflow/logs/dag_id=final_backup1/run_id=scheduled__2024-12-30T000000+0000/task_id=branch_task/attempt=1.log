@@ -1,0 +1,25 @@
+[2024-12-31T10:45:14.831+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-31T10:45:14.854+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: final_backup1.branch_task scheduled__2024-12-30T00:00:00+00:00 [queued]>
+[2024-12-31T10:45:14.864+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: final_backup1.branch_task scheduled__2024-12-30T00:00:00+00:00 [queued]>
+[2024-12-31T10:45:14.866+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-31T10:45:14.888+0000] {taskinstance.py:2889} INFO - Executing <Task(BranchPythonOperator): branch_task> on 2024-12-30 00:00:00+00:00
+[2024-12-31T10:45:14.896+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'final_backup1', 'branch_task', 'scheduled__2024-12-30T00:00:00+00:00', '--job-id', '1076', '--raw', '--subdir', 'DAGS_FOLDER/final_backup1.py', '--cfg-path', '/tmp/tmph5btelv1']
+[2024-12-31T10:45:14.896+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=326) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-31T10:45:14.898+0000] {standard_task_runner.py:105} INFO - Job 1076: Subtask branch_task
+[2024-12-31T10:45:14.898+0000] {standard_task_runner.py:72} INFO - Started process 328 to run task
+[2024-12-31T10:45:14.922+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-12-31T10:45:14.971+0000] {task_command.py:467} INFO - Running <TaskInstance: final_backup1.branch_task scheduled__2024-12-30T00:00:00+00:00 [running]> on host 05c0118fb254
+[2024-12-31T10:45:14.973+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-12-31T10:45:15.121+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='final_backup1' AIRFLOW_CTX_TASK_ID='branch_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-30T00:00:00+00:00'
+[2024-12-31T10:45:15.122+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-31T10:45:15.125+0000] {baseoperator.py:421} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2024-12-31T10:45:15.152+0000] {final_backup1.py:22} INFO - DEBUG: files_to_copy_dict: LazySelectSequence([2 items])
+[2024-12-31T10:45:15.155+0000] {python.py:240} INFO - Done. Returned value was: skip_copy
+[2024-12-31T10:45:15.156+0000] {branch.py:38} INFO - Branch into skip_copy
+[2024-12-31T10:45:15.157+0000] {skipmixin.py:230} INFO - Following branch ('skip_copy',)
+[2024-12-31T10:45:15.163+0000] {skipmixin.py:278} INFO - Skipping tasks [('copying_task', -1)]
+[2024-12-31T10:45:15.206+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-31T10:45:15.207+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=final_backup1, task_id=branch_task, run_id=scheduled__2024-12-30T00:00:00+00:00, execution_date=20241230T000000, start_date=20241231T104514, end_date=20241231T104515
+[2024-12-31T10:45:15.240+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-31T10:45:15.286+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-31T10:45:15.289+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,1022 @@
+[2024-12-31T10:14:18.120+0000] {manager.py:483} INFO - Processing files using up to 8 processes at a time 
+[2024-12-31T10:14:18.120+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-31T10:14:18.121+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-31T10:14:18.122+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:14:18.223+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:14:18.400+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/final_backup1.py    211  0.03s             0           0                                                   0
+/opt/airflow/dags/task_group.py       208  0.06s             0           0                                                   0
+================================================================================
+[2024-12-31T10:14:48.986+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    233  0.01s             1           0  0.24s           2024-12-31T10:14:18                      12
+/opt/airflow/dags/task_group.py       230  0.04s             1           0  0.24s           2024-12-31T10:14:18                      10
+================================================================================
+[2024-12-31T10:15:19.501+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py       240  0.03s             1           0  0.22s           2024-12-31T10:14:49                      10
+/opt/airflow/dags/final_backup1.py    243  0.00s             1           0  0.21s           2024-12-31T10:14:49                      12
+================================================================================
+[2024-12-31T10:15:50.130+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    253  0.00s             1           0  0.18s           2024-12-31T10:15:19                      12
+/opt/airflow/dags/task_group.py       250  0.03s             1           0  0.18s           2024-12-31T10:15:19                      10
+================================================================================
+[2024-12-31T10:16:20.792+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py       260  0.03s             1           0  0.18s           2024-12-31T10:15:50                      10
+/opt/airflow/dags/final_backup1.py    263  0.00s             1           0  0.18s           2024-12-31T10:15:50                      12
+================================================================================
+[2024-12-31T10:16:51.309+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    273  0.00s             1           0  0.17s           2024-12-31T10:16:20                      12
+/opt/airflow/dags/task_group.py       270  0.02s             1           0  0.16s           2024-12-31T10:16:20                      10
+================================================================================
+[2024-12-31T10:17:21.865+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    283  0.01s             1           0  0.23s           2024-12-31T10:16:51                      12
+/opt/airflow/dags/task_group.py       280  0.04s             1           0  0.21s           2024-12-31T10:16:51                      10
+================================================================================
+[2024-12-31T10:17:41.792+0000] {manager.py:483} INFO - Processing files using up to 8 processes at a time 
+[2024-12-31T10:17:41.793+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-31T10:17:41.794+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-31T10:17:41.794+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:17:41.888+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:17:42.016+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/final_backup1.py    210  0.04s             0           0                                                   0
+/opt/airflow/dags/task_group.py       207  0.06s             0           0                                                   0
+================================================================================
+[2024-12-31T10:18:13.532+0000] {manager.py:483} INFO - Processing files using up to 8 processes at a time 
+[2024-12-31T10:18:13.534+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-31T10:18:13.534+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-31T10:18:13.535+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:18:13.765+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:18:13.953+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/final_backup1.py    210  0.04s             0           0                                                   0
+/opt/airflow/dags/task_group.py       207  0.07s             0           0                                                   0
+================================================================================
+[2024-12-31T10:18:35.163+0000] {manager.py:483} INFO - Processing files using up to 8 processes at a time 
+[2024-12-31T10:18:35.163+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-31T10:18:35.164+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-31T10:18:35.165+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:18:35.261+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:18:35.391+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/final_backup1.py    210  0.03s             0           0                                                   0
+/opt/airflow/dags/task_group.py       207  0.06s             0           0                                                   0
+================================================================================
+[2024-12-31T10:18:58.325+0000] {manager.py:483} INFO - Processing files using up to 8 processes at a time 
+[2024-12-31T10:18:58.326+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-31T10:18:58.327+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-31T10:18:58.327+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:18:58.408+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:18:58.522+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/final_backup1.py    210  0.03s             0           0                                                   0
+/opt/airflow/dags/task_group.py       207  0.05s             0           0                                                   0
+================================================================================
+[2024-12-31T10:26:52.723+0000] {manager.py:483} INFO - Processing files using up to 8 processes at a time 
+[2024-12-31T10:26:52.724+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-31T10:26:52.725+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-31T10:26:52.726+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:26:53.113+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:26:53.267+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/final_backup1.py    212  0.02s             0           0                                                   0
+/opt/airflow/dags/task_group.py       209  0.04s             0           0                                                   0
+================================================================================
+[2024-12-31T10:27:23.965+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    233  0.00s             1           0  0.21s           2024-12-31T10:26:53                      12
+/opt/airflow/dags/task_group.py       230  0.04s             1           0  0.18s           2024-12-31T10:26:53                      10
+================================================================================
+[2024-12-31T10:27:54.699+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py       240  0.03s             1           0  0.15s           2024-12-31T10:27:24                      10
+/opt/airflow/dags/final_backup1.py    243  0.00s             1           0  0.15s           2024-12-31T10:27:24                      12
+================================================================================
+[2024-12-31T10:28:27.440+0000] {manager.py:483} INFO - Processing files using up to 8 processes at a time 
+[2024-12-31T10:28:27.441+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-31T10:28:27.443+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-31T10:28:27.444+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:28:27.595+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:28:27.726+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/final_backup1.py    210  0.03s             0           0                                                   0
+/opt/airflow/dags/task_group.py       207  0.05s             0           0                                                   0
+================================================================================
+[2024-12-31T10:28:58.298+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    244  0.00s             1           0  0.23s           2024-12-31T10:28:27                      12
+/opt/airflow/dags/task_group.py       241  0.03s             1           0  0.20s           2024-12-31T10:28:27                      10
+================================================================================
+[2024-12-31T10:29:28.967+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    254  0.00s             1           0  0.16s           2024-12-31T10:28:58                      12
+/opt/airflow/dags/task_group.py       251  0.04s             1           0  0.15s           2024-12-31T10:28:58                      10
+================================================================================
+[2024-12-31T10:29:46.313+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-12-31T10:44:56.071+0000] {manager.py:483} INFO - Processing files using up to 8 processes at a time 
+[2024-12-31T10:44:56.072+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-12-31T10:44:56.073+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-12-31T10:44:56.073+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:44:56.213+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:44:56.420+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/final_backup1.py    216  0.04s             0           0                                                   0
+/opt/airflow/dags/task_group.py       213  0.08s             0           0                                                   0
+================================================================================
+[2024-12-31T10:45:27.141+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    335  0.00s             1           0  0.32s           2024-12-31T10:44:56                      12
+/opt/airflow/dags/task_group.py       332  0.03s             1           0  0.31s           2024-12-31T10:44:56                      10
+================================================================================
+[2024-12-31T10:45:57.755+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    345  0.00s             1           0  0.14s           2024-12-31T10:45:27                      12
+/opt/airflow/dags/task_group.py       342  0.02s             1           0  0.13s           2024-12-31T10:45:27                      10
+================================================================================
+[2024-12-31T10:46:28.407+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    355  0.01s             1           0  0.16s           2024-12-31T10:45:57                      12
+/opt/airflow/dags/task_group.py       352  0.05s             1           0  0.15s           2024-12-31T10:45:57                      10
+================================================================================
+[2024-12-31T10:46:59.015+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py       362  0.03s             1           0  0.18s           2024-12-31T10:46:28                      10
+/opt/airflow/dags/final_backup1.py    365  0.00s             1           0  0.18s           2024-12-31T10:46:28                      12
+================================================================================
+[2024-12-31T10:47:29.649+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    375  0.00s             1           0  0.16s           2024-12-31T10:46:59                      12
+/opt/airflow/dags/task_group.py       372  0.02s             1           0  0.15s           2024-12-31T10:46:59                      10
+================================================================================
+[2024-12-31T10:48:00.246+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    385  0.00s             1           0  0.15s           2024-12-31T10:47:29                      12
+/opt/airflow/dags/task_group.py       382  0.02s             1           0  0.13s           2024-12-31T10:47:29                      10
+================================================================================
+[2024-12-31T10:48:30.889+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    395  0.00s             1           0  0.14s           2024-12-31T10:48:00                      12
+/opt/airflow/dags/task_group.py       392  0.03s             1           0  0.13s           2024-12-31T10:48:00                      10
+================================================================================
+[2024-12-31T10:49:01.492+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    405  0.00s             1           0  0.14s           2024-12-31T10:48:31                      12
+/opt/airflow/dags/task_group.py       402  0.02s             1           0  0.13s           2024-12-31T10:48:30                      10
+================================================================================
+[2024-12-31T10:49:32.085+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    415  0.00s             1           0  0.15s           2024-12-31T10:49:01                      12
+/opt/airflow/dags/task_group.py       412  0.03s             1           0  0.15s           2024-12-31T10:49:01                      10
+================================================================================
+[2024-12-31T10:49:56.521+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:49:56.646+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:50:02.807+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    425  0.00s             1           0  0.17s           2024-12-31T10:49:32                      12
+/opt/airflow/dags/task_group.py       422  0.03s             1           0  0.15s           2024-12-31T10:49:32                      10
+================================================================================
+[2024-12-31T10:50:33.424+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    435  0.00s             1           0  0.15s           2024-12-31T10:50:02                      12
+/opt/airflow/dags/task_group.py       432  0.02s             1           0  0.14s           2024-12-31T10:50:02                      10
+================================================================================
+[2024-12-31T10:51:04.010+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    445  0.00s             1           0  0.14s           2024-12-31T10:50:33                      12
+/opt/airflow/dags/task_group.py       442  0.02s             1           0  0.13s           2024-12-31T10:50:33                      10
+================================================================================
+[2024-12-31T10:51:34.623+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    455  0.00s             1           0  0.15s           2024-12-31T10:51:04                      12
+/opt/airflow/dags/task_group.py       452  0.02s             1           0  0.14s           2024-12-31T10:51:04                      10
+================================================================================
+[2024-12-31T10:52:05.195+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    465  0.00s             1           0  0.15s           2024-12-31T10:51:34                      12
+/opt/airflow/dags/task_group.py       462  0.02s             1           0  0.13s           2024-12-31T10:51:34                      10
+================================================================================
+[2024-12-31T10:52:35.801+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    475  0.00s             1           0  0.15s           2024-12-31T10:52:05                      12
+/opt/airflow/dags/task_group.py       472  0.02s             1           0  0.14s           2024-12-31T10:52:05                      10
+================================================================================
+[2024-12-31T10:53:06.398+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    485  0.00s             1           0  0.17s           2024-12-31T10:52:35                      12
+/opt/airflow/dags/task_group.py       482  0.02s             1           0  0.16s           2024-12-31T10:52:35                      10
+================================================================================
+[2024-12-31T10:53:36.982+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    495  0.00s             1           0  0.15s           2024-12-31T10:53:06                      12
+/opt/airflow/dags/task_group.py       492  0.02s             1           0  0.14s           2024-12-31T10:53:06                      10
+================================================================================
+[2024-12-31T10:54:07.577+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    505  0.00s             1           0  0.14s           2024-12-31T10:53:37                      12
+/opt/airflow/dags/task_group.py       502  0.02s             1           0  0.13s           2024-12-31T10:53:37                      10
+================================================================================
+[2024-12-31T10:54:38.171+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    515  0.00s             1           0  0.16s           2024-12-31T10:54:07                      12
+/opt/airflow/dags/task_group.py       512  0.02s             1           0  0.14s           2024-12-31T10:54:07                      10
+================================================================================
+[2024-12-31T10:54:56.550+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:54:56.694+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T10:55:08.929+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    531  0.00s             1           0  0.15s           2024-12-31T10:54:38                      12
+/opt/airflow/dags/task_group.py       528  0.02s             1           0  0.12s           2024-12-31T10:54:38                      10
+================================================================================
+[2024-12-31T10:55:39.561+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    541  0.00s             1           0  0.17s           2024-12-31T10:55:09                      12
+/opt/airflow/dags/task_group.py       538  0.03s             1           0  0.14s           2024-12-31T10:55:09                      10
+================================================================================
+[2024-12-31T10:56:10.115+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    551  0.00s             1           0  0.15s           2024-12-31T10:55:39                      12
+/opt/airflow/dags/task_group.py       548  0.02s             1           0  0.14s           2024-12-31T10:55:39                      10
+================================================================================
+[2024-12-31T10:56:40.726+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    561  0.00s             1           0  0.15s           2024-12-31T10:56:10                      12
+/opt/airflow/dags/task_group.py       558  0.02s             1           0  0.13s           2024-12-31T10:56:10                      10
+================================================================================
+[2024-12-31T10:57:11.340+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    571  0.00s             1           0  0.16s           2024-12-31T10:56:40                      12
+/opt/airflow/dags/task_group.py       568  0.03s             1           0  0.14s           2024-12-31T10:56:40                      10
+================================================================================
+[2024-12-31T10:57:41.926+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py       578  0.02s             1           0  0.15s           2024-12-31T10:57:11                      10
+/opt/airflow/dags/final_backup1.py    581  0.00s             1           0  0.15s           2024-12-31T10:57:11                      12
+================================================================================
+[2024-12-31T10:58:12.522+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    591  0.00s             1           0  0.16s           2024-12-31T10:57:42                      12
+/opt/airflow/dags/task_group.py       588  0.02s             1           0  0.14s           2024-12-31T10:57:42                      10
+================================================================================
+[2024-12-31T10:58:43.142+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    601  0.00s             1           0  0.16s           2024-12-31T10:58:12                      12
+/opt/airflow/dags/task_group.py       598  0.02s             1           0  0.14s           2024-12-31T10:58:12                      10
+================================================================================
+[2024-12-31T10:59:13.769+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    611  0.00s             1           0  0.16s           2024-12-31T10:58:43                      12
+/opt/airflow/dags/task_group.py       608  0.02s             1           0  0.16s           2024-12-31T10:58:43                      10
+================================================================================
+[2024-12-31T10:59:44.409+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    621  0.00s             1           0  0.14s           2024-12-31T10:59:13                      12
+/opt/airflow/dags/task_group.py       618  0.02s             1           0  0.13s           2024-12-31T10:59:13                      10
+================================================================================
+[2024-12-31T10:59:56.726+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T10:59:56.793+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T11:00:15.170+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    631  0.00s             1           0  0.15s           2024-12-31T10:59:44                      12
+/opt/airflow/dags/task_group.py       628  0.03s             1           0  0.14s           2024-12-31T10:59:44                      10
+================================================================================
+[2024-12-31T11:00:45.802+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    641  0.00s             1           0  0.15s           2024-12-31T11:00:15                      12
+/opt/airflow/dags/task_group.py       638  0.03s             1           0  0.14s           2024-12-31T11:00:15                      10
+================================================================================
+[2024-12-31T11:01:16.444+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    651  0.00s             1           0  0.16s           2024-12-31T11:00:45                      12
+/opt/airflow/dags/task_group.py       648  0.02s             1           0  0.15s           2024-12-31T11:00:45                      10
+================================================================================
+[2024-12-31T11:01:47.146+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    661  0.00s             1           0  0.19s           2024-12-31T11:01:16                      12
+/opt/airflow/dags/task_group.py       658  0.03s             1           0  0.17s           2024-12-31T11:01:16                      10
+================================================================================
+[2024-12-31T11:02:17.744+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    671  0.00s             1           0  0.18s           2024-12-31T11:01:47                      12
+/opt/airflow/dags/task_group.py       668  0.02s             1           0  0.16s           2024-12-31T11:01:47                      10
+================================================================================
+[2024-12-31T11:02:48.376+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    681  0.00s             1           0  0.14s           2024-12-31T11:02:17                      12
+/opt/airflow/dags/task_group.py       678  0.03s             1           0  0.13s           2024-12-31T11:02:17                      10
+================================================================================
+[2024-12-31T11:03:18.952+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    691  0.00s             1           0  0.15s           2024-12-31T11:02:48                      12
+/opt/airflow/dags/task_group.py       688  0.03s             1           0  0.13s           2024-12-31T11:02:48                      10
+================================================================================
+[2024-12-31T11:03:49.472+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    701  0.00s             1           0  0.14s           2024-12-31T11:03:19                      12
+/opt/airflow/dags/task_group.py       698  0.02s             1           0  0.13s           2024-12-31T11:03:19                      10
+================================================================================
+[2024-12-31T11:04:20.049+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    711  0.01s             1           0  0.15s           2024-12-31T11:03:49                      12
+/opt/airflow/dags/task_group.py       708  0.02s             1           0  0.11s           2024-12-31T11:03:49                      10
+================================================================================
+[2024-12-31T11:04:50.656+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    721  0.00s             1           0  0.17s           2024-12-31T11:04:20                      12
+/opt/airflow/dags/task_group.py       718  0.02s             1           0  0.14s           2024-12-31T11:04:20                      10
+================================================================================
+[2024-12-31T11:04:56.856+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T11:04:56.927+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T11:05:21.339+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    731  0.00s             1           0  0.15s           2024-12-31T11:04:50                      12
+/opt/airflow/dags/task_group.py       728  0.02s             1           0  0.14s           2024-12-31T11:04:50                      10
+================================================================================
+[2024-12-31T11:05:51.925+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    741  0.00s             1           0  0.15s           2024-12-31T11:05:21                      12
+/opt/airflow/dags/task_group.py       738  0.03s             1           0  0.14s           2024-12-31T11:05:21                      10
+================================================================================
+[2024-12-31T11:06:22.502+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    751  0.00s             1           0  0.15s           2024-12-31T11:05:52                      12
+/opt/airflow/dags/task_group.py       748  0.03s             1           0  0.13s           2024-12-31T11:05:52                      10
+================================================================================
+[2024-12-31T11:06:53.066+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    761  0.01s             1           0  0.14s           2024-12-31T11:06:22                      12
+/opt/airflow/dags/task_group.py       758  0.03s             1           0  0.14s           2024-12-31T11:06:22                      10
+================================================================================
+[2024-12-31T11:07:23.772+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    771  0.00s             1           0  0.20s           2024-12-31T11:06:53                      12
+/opt/airflow/dags/task_group.py       768  0.03s             1           0  0.19s           2024-12-31T11:06:53                      10
+================================================================================
+[2024-12-31T11:07:54.413+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    781  0.00s             1           0  0.15s           2024-12-31T11:07:23                      12
+/opt/airflow/dags/task_group.py       778  0.02s             1           0  0.13s           2024-12-31T11:07:23                      10
+================================================================================
+[2024-12-31T11:08:25.018+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    791  0.00s             1           0  0.16s           2024-12-31T11:07:54                      12
+/opt/airflow/dags/task_group.py       788  0.02s             1           0  0.15s           2024-12-31T11:07:54                      10
+================================================================================
+[2024-12-31T11:08:55.565+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    801  0.00s             1           0  0.14s           2024-12-31T11:08:25                      12
+/opt/airflow/dags/task_group.py       798  0.02s             1           0  0.12s           2024-12-31T11:08:25                      10
+================================================================================
+[2024-12-31T11:09:26.178+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    811  0.00s             1           0  0.15s           2024-12-31T11:08:55                      12
+/opt/airflow/dags/task_group.py       808  0.02s             1           0  0.14s           2024-12-31T11:08:55                      10
+================================================================================
+[2024-12-31T11:09:56.827+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    821  0.00s             1           0  0.15s           2024-12-31T11:09:26                      12
+/opt/airflow/dags/task_group.py       818  0.03s             1           0  0.14s           2024-12-31T11:09:26                      10
+================================================================================
+[2024-12-31T11:09:56.950+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T11:09:57.088+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T11:10:27.300+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    831  0.00s             1           0  0.30s           2024-12-31T11:09:57                      12
+/opt/airflow/dags/task_group.py       828  0.02s             1           0  0.15s           2024-12-31T11:09:56                      10
+================================================================================
+[2024-12-31T11:10:57.946+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    841  0.00s             1           0  0.14s           2024-12-31T11:10:27                      12
+/opt/airflow/dags/task_group.py       838  0.03s             1           0  0.13s           2024-12-31T11:10:27                      10
+================================================================================
+[2024-12-31T11:11:28.608+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    851  0.00s             1           0  0.16s           2024-12-31T11:10:58                      12
+/opt/airflow/dags/task_group.py       848  0.02s             1           0  0.14s           2024-12-31T11:10:58                      10
+================================================================================
+[2024-12-31T11:11:59.214+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    861  0.00s             1           0  0.14s           2024-12-31T11:11:28                      12
+/opt/airflow/dags/task_group.py       858  0.02s             1           0  0.13s           2024-12-31T11:11:28                      10
+================================================================================
+[2024-12-31T11:12:29.829+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    871  0.00s             1           0  0.16s           2024-12-31T11:11:59                      12
+/opt/airflow/dags/task_group.py       868  0.03s             1           0  0.13s           2024-12-31T11:11:59                      10
+================================================================================
+[2024-12-31T11:13:00.437+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    881  0.00s             1           0  0.29s           2024-12-31T11:12:30                      12
+/opt/airflow/dags/task_group.py       878  0.03s             1           0  0.14s           2024-12-31T11:12:29                      10
+================================================================================
+[2024-12-31T11:13:31.064+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    891  0.00s             1           0  0.16s           2024-12-31T11:13:00                      12
+/opt/airflow/dags/task_group.py       888  0.02s             1           0  0.14s           2024-12-31T11:13:00                      10
+================================================================================
+[2024-12-31T11:14:01.663+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    901  0.00s             1           0  0.15s           2024-12-31T11:13:31                      12
+/opt/airflow/dags/task_group.py       898  0.02s             1           0  0.14s           2024-12-31T11:13:31                      10
+================================================================================
+[2024-12-31T11:14:32.278+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    911  0.00s             1           0  0.16s           2024-12-31T11:14:01                      12
+/opt/airflow/dags/task_group.py       908  0.03s             1           0  0.13s           2024-12-31T11:14:01                      10
+================================================================================
+[2024-12-31T11:14:57.765+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T11:14:57.972+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T11:15:03.139+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    921  0.00s             1           0  0.26s           2024-12-31T11:14:32                      12
+/opt/airflow/dags/task_group.py       918  0.02s             1           0  0.14s           2024-12-31T11:14:32                      10
+================================================================================
+[2024-12-31T11:15:33.729+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    931  0.00s             1           0  0.17s           2024-12-31T11:15:03                      12
+/opt/airflow/dags/task_group.py       928  0.03s             1           0  0.14s           2024-12-31T11:15:03                      10
+================================================================================
+[2024-12-31T11:16:04.284+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    941  0.00s             1           0  0.17s           2024-12-31T11:15:33                      12
+/opt/airflow/dags/task_group.py       938  0.02s             1           0  0.15s           2024-12-31T11:15:33                      10
+================================================================================
+[2024-12-31T11:16:34.886+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    951  0.00s             1           0  0.15s           2024-12-31T11:16:04                      12
+/opt/airflow/dags/task_group.py       948  0.02s             1           0  0.15s           2024-12-31T11:16:04                      10
+================================================================================
+[2024-12-31T11:17:05.512+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    961  0.00s             1           0  0.31s           2024-12-31T11:16:35                      12
+/opt/airflow/dags/task_group.py       958  0.03s             1           0  0.16s           2024-12-31T11:16:35                      10
+================================================================================
+[2024-12-31T11:17:36.116+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    971  0.00s             1           0  0.16s           2024-12-31T11:17:05                      12
+/opt/airflow/dags/task_group.py       968  0.02s             1           0  0.15s           2024-12-31T11:17:05                      10
+================================================================================
+[2024-12-31T11:18:06.738+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py    981  0.00s             1           0  0.15s           2024-12-31T11:17:36                      12
+/opt/airflow/dags/task_group.py       978  0.03s             1           0  0.13s           2024-12-31T11:17:36                      10
+================================================================================
+[2024-12-31T11:18:37.347+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py       988  0.03s             1           0  0.16s           2024-12-31T11:18:06                      10
+/opt/airflow/dags/final_backup1.py    991  0.01s             1           0  0.15s           2024-12-31T11:18:06                      12
+================================================================================
+[2024-12-31T11:19:07.905+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1001  0.00s             1           0  0.30s           2024-12-31T11:18:37                      12
+/opt/airflow/dags/task_group.py       998  0.02s             1           0  0.16s           2024-12-31T11:18:37                      10
+================================================================================
+[2024-12-31T11:19:38.437+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1011  0.00s             1           0  0.19s           2024-12-31T11:19:08                      12
+/opt/airflow/dags/task_group.py      1008  0.03s             1           0  0.16s           2024-12-31T11:19:08                      10
+================================================================================
+[2024-12-31T11:19:57.866+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T11:19:57.986+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T11:20:09.230+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py      1018  0.04s             1           0  0.16s           2024-12-31T11:19:38                      10
+/opt/airflow/dags/final_backup1.py   1021  0.01s             1           0  0.15s           2024-12-31T11:19:38                      12
+================================================================================
+[2024-12-31T11:20:39.845+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py      1028  0.02s             1           0  0.18s           2024-12-31T11:20:09                      10
+/opt/airflow/dags/final_backup1.py   1031  0.00s             1           0  0.18s           2024-12-31T11:20:09                      12
+================================================================================
+[2024-12-31T11:21:10.449+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1041  0.00s             1           0  0.31s           2024-12-31T11:20:40                      12
+/opt/airflow/dags/task_group.py      1038  0.02s             1           0  0.16s           2024-12-31T11:20:39                      10
+================================================================================
+[2024-12-31T11:21:41.108+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1051  0.00s             1           0  0.15s           2024-12-31T11:21:10                      12
+/opt/airflow/dags/task_group.py      1048  0.02s             1           0  0.14s           2024-12-31T11:21:10                      10
+================================================================================
+[2024-12-31T11:22:11.718+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1061  0.00s             1           0  0.14s           2024-12-31T11:21:41                      12
+/opt/airflow/dags/task_group.py      1058  0.02s             1           0  0.14s           2024-12-31T11:21:41                      10
+================================================================================
+[2024-12-31T11:22:42.238+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1071  0.00s             1           0  0.14s           2024-12-31T11:22:11                      12
+/opt/airflow/dags/task_group.py      1068  0.02s             1           0  0.13s           2024-12-31T11:22:11                      10
+================================================================================
+[2024-12-31T11:23:12.778+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1081  0.00s             1           0  0.29s           2024-12-31T11:22:42                      12
+/opt/airflow/dags/task_group.py      1078  0.02s             1           0  0.15s           2024-12-31T11:22:42                      10
+================================================================================
+[2024-12-31T11:23:43.275+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1091  0.00s             1           0  0.15s           2024-12-31T11:23:12                      12
+/opt/airflow/dags/task_group.py      1088  0.03s             1           0  0.14s           2024-12-31T11:23:12                      10
+================================================================================
+[2024-12-31T11:24:13.732+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/task_group.py      1098  0.02s             1           0  0.16s           2024-12-31T11:23:43                      10
+/opt/airflow/dags/final_backup1.py   1101  0.00s             1           0  0.16s           2024-12-31T11:23:43                      12
+================================================================================
+[2024-12-31T11:24:44.336+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1111  0.00s             1           0  0.15s           2024-12-31T11:24:13                      12
+/opt/airflow/dags/task_group.py      1108  0.03s             1           0  0.13s           2024-12-31T11:24:13                      10
+================================================================================
+[2024-12-31T11:24:58.664+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T11:24:58.789+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T11:25:14.982+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1121  0.00s             1           0  0.30s           2024-12-31T11:24:44                      12
+/opt/airflow/dags/task_group.py      1118  0.02s             1           0  0.16s           2024-12-31T11:24:44                      10
+================================================================================
+[2024-12-31T11:25:45.491+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1131  0.00s             1           0  0.15s           2024-12-31T11:25:15                      12
+/opt/airflow/dags/task_group.py      1128  0.02s             1           0  0.13s           2024-12-31T11:25:15                      10
+================================================================================
+[2024-12-31T11:26:16.021+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1141  0.00s             1           0  0.14s           2024-12-31T11:25:45                      12
+/opt/airflow/dags/task_group.py      1138  0.02s             1           0  0.12s           2024-12-31T11:25:45                      10
+================================================================================
+[2024-12-31T11:26:46.469+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1151  0.00s             1           0  0.13s           2024-12-31T11:26:16                      12
+/opt/airflow/dags/task_group.py      1148  0.03s             1           0  0.12s           2024-12-31T11:26:16                      10
+================================================================================
+[2024-12-31T11:27:17.072+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1161  0.00s             1           0  0.26s           2024-12-31T11:26:46                      12
+/opt/airflow/dags/task_group.py      1158  0.02s             1           0  0.14s           2024-12-31T11:26:46                      10
+================================================================================
+[2024-12-31T11:27:47.696+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1171  0.00s             1           0  0.15s           2024-12-31T11:27:17                      12
+/opt/airflow/dags/task_group.py      1168  0.03s             1           0  0.11s           2024-12-31T11:27:17                      10
+================================================================================
+[2024-12-31T11:28:18.334+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1181  0.00s             1           0  0.14s           2024-12-31T11:27:47                      12
+/opt/airflow/dags/task_group.py      1178  0.03s             1           0  0.13s           2024-12-31T11:27:47                      10
+================================================================================
+[2024-12-31T11:28:48.964+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1191  0.00s             1           0  0.17s           2024-12-31T11:28:18                      12
+/opt/airflow/dags/task_group.py      1188  0.02s             1           0  0.16s           2024-12-31T11:28:18                      10
+================================================================================
+[2024-12-31T11:29:19.568+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1201  0.00s             1           0  0.24s           2024-12-31T11:28:49                      12
+/opt/airflow/dags/task_group.py      1198  0.02s             1           0  0.13s           2024-12-31T11:28:49                      10
+================================================================================
+[2024-12-31T11:29:50.201+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py   1211  0.00s             1           0  0.15s           2024-12-31T11:29:19                      12
+/opt/airflow/dags/task_group.py      1208  0.02s             1           0  0.15s           2024-12-31T11:29:19                      10
+================================================================================
+[2024-12-31T11:29:59.449+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-12-31T11:29:59.575+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2024-12-31T11:30:20.216+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/final_backup1.py                           1           0  0.13s           2024-12-31T11:29:50                      12
+/opt/airflow/dags/task_group.py                              1           0  0.13s           2024-12-31T11:29:50                      10
+================================================================================
